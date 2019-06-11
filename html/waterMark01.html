@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<script type="text/javascript" src="js/waterMark.js">
+		</script>
+	</head>
+
+	<body>
+
+		<div id="warter" style="width: 200px;height: 200px;">
+
+			<button onclick="skipTest()">跳转到指定区域添加水印</button>
+		</div>
+
+		<script type="text/javascript">
+			waterMark("张三");
+
+			function skipTest() {
+				window.location.href = 'waterMark02.html';
+			}
+		</script>
+
+	</body>
+
+</html>
